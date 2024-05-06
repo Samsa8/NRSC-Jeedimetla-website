@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.internship-image img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.title, .section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description, .section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.view-button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;  
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #00b315;  
+}
+
+.social-media img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 8px;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a:not(:last-child)::after {
+  content: '|';
+  margin-left: 8px;
+  color: #333;
+}
+
+.contact-now {
+  margin-top: 30px;  
+  border: 1px solid #2db847; 
+  padding: 20px; 
+  border-radius: 5px;  
+  text-align: justify;
+}
+
+.larger-text {
+  font-size: 20px;
+}
+
+.contact-now p {
+  text-align: justify;
+}
+
+.section {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.section h2 {
+  color: #333;
+  text-align: justify;
+}
+
+/* Added alignment for specified sections */
+.student-projects,
+.internships,
+.internship-image,
+.outreach,
+.description,
+.training {
+  text-align: justify;
+}
+
+.training-section {
+  text-align: justify;
+}
+
+.training-section .contact {
+  margin-top: 30px;  
+  border: 1px solid #2db847; 
+  padding: 20px; 
+  border-radius: 5px;  
+  text-align: justify;
+}
